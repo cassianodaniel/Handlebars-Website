@@ -1,0 +1,22 @@
+header{
+    position: relative;
+    left: 40%;
+}
+
+section{
+    position: relative;
+    left: 40%;
+    top: 70px;
+}
+
+body form{
+    position: relative;
+    left: 40%;
+    top: 160px;
+}
+
+footer{
+    position: relative;
+    top: 200px;
+    left: 40%
+}

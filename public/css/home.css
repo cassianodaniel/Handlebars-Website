@@ -1,0 +1,45 @@
+nav.links h3{
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    position: relative;
+    left: 70%;
+}
+
+nav.cabecalho h5{
+    background-color: rgba(0, 0, 0, 0.555);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 80px;
+}
+
+nav.primeiro h3{
+    position: relative;
+    left: 100px;
+}
+
+section.ads{
+    background-color: white;
+    position: relative;
+    width: 88%;
+    bottom: 60px;
+    left: 67px;
+}
+
+section.middle{
+    background-image: url("/public/images/gymbackgroundhome.jpg");
+}
+section iframe{
+    position:relative;
+    left: 30%;
+    top: 10%;
+
+}
+
+html{
+    background: rgba(0, 0, 0, 0.486);
+}
+
+footer{
+    color:white;
+}
