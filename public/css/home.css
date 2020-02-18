@@ -1,16 +1,53 @@
-nav.links h3{
-    background-color: transparent;
-    color: black;
+html{
+    background-color: rgb(66, 66, 66);
+}
+
+nav.links h3.login{
+    border: rgba(0, 0, 0, 0.555);
+    border-radius: 4px;
     display: inline-block;
     position: relative;
-    left: 70%;
+    left: 65%;
+    top: 18%;
+}
+
+nav.links h3.cadastro{
+    border: rgba(0, 0, 0, 0.555);
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 68%;
+    top: 18%;
+}
+
+nav.links h3.loja{
+    border: rgba(0, 0, 0, 0.555);
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 72%;
+    top: 18%;
+}
+
+nav.links{
+    background-image: url("img/gymbackgroundhome.jpg");
+    border-radius: 8px;
+    height: 130px;
+}
+
+header div.logo{
+    background-color:red;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 nav.cabecalho h5{
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: black;
     color:white;
     font-family: 'Courier New', Courier, monospace;
     height: 80px;
+    border-radius: 8px;
 }
 
 nav.primeiro h3{
@@ -19,27 +56,56 @@ nav.primeiro h3{
 }
 
 section.ads{
-    background-color: white;
+    background-color: rgb(201, 196, 196);
     position: relative;
     width: 88%;
     bottom: 60px;
     left: 67px;
+    border-radius: 8px;
 }
 
 section.middle{
-    background-image: url("/public/images/gymbackgroundhome.jpg");
+    border-radius: 8px;
+    background-image: url("img/gymbackgroundhome.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 144px;
+
 }
+
 section iframe{
     position:relative;
-    left: 30%;
-    top: 10%;
+    left: 25%;
+    top: 12%;
 
-}
-
-html{
-    background: rgba(0, 0, 0, 0.486);
 }
 
 footer{
     color:white;
+    background-color: transparent;
+    position:relative;
+    bottom: 160px;
+}
+
+iframe{
+    border-radius: 8px;
+}
+
+header h3{
+    background-color: white;
+    padding: 6px;   
+}
+
+header div.logo{
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    bottom: 178px;
+    left: 82px;
+    height: 110px;
+    width: 260px;
+    background-image: url(img/logo\ png.png);
 }
